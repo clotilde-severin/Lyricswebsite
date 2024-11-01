@@ -1,0 +1,59 @@
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-green {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b0e892;
+    color: #003333;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.btn-green:hover {
+    background-color: #a0d682;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 200px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+    border-radius: 5px;
+}

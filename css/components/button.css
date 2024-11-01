@@ -1,0 +1,13 @@
+.btn-green {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b0e892;
+    color: #003333;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Lora';
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer; 
+}
